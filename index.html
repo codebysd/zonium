@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Zonium</title>
+    <meta name="application-name" content="Zonium" />
+    <meta name="description" content="Minimal TimeZone matcher">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.5.7/css/pico.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./theme.css">
+</head>
+
+<body>
+    <script type="module">
+        // render app component
+        import { html, render } from './deps.js';
+        import { App } from './App.js';
+        render(html`<${App}/>`, document.body);
+    </script>
+</body>
+
+</html>
